@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD87F9452BACCDEF00B32ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9442BACCDEF00B32ABC /* AppDelegate.swift */; };
+		DD87F9472BACCDEF00B32ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9462BACCDEF00B32ABC /* SceneDelegate.swift */; };
+		DD87F9492BACCDEF00B32ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9482BACCDEF00B32ABC /* ViewController.swift */; };
+		DD87F94C2BACCDEF00B32ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD87F94A2BACCDEF00B32ABC /* Main.storyboard */; };
+		DD87F94E2BACCDF000B32ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD87F94D2BACCDF000B32ABC /* Assets.xcassets */; };
+		DD87F9512BACCDF000B32ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD87F94F2BACCDF000B32ABC /* LaunchScreen.storyboard */; };
+		DD87F95C2BACCDF000B32ABC /* Flash2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F95B2BACCDF000B32ABC /* Flash2Tests.swift */; };
+		DD87F9662BACCDF000B32ABC /* Flash2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9652BACCDF000B32ABC /* Flash2UITests.swift */; };
+		DD87F9682BACCDF000B32ABC /* Flash2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9672BACCDF000B32ABC /* Flash2UITestsLaunchTests.swift */; };
+		DD87F9752BACCE2F00B32ABC /* flashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87F9742BACCE2F00B32ABC /* flashViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD87F9582BACCDF000B32ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD87F9392BACCDEF00B32ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD87F9402BACCDEF00B32ABC;
+			remoteInfo = Flash2;
+		};
+		DD87F9622BACCDF000B32ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD87F9392BACCDEF00B32ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD87F9402BACCDEF00B32ABC;
+			remoteInfo = Flash2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD87F9412BACCDEF00B32ABC /* Flash2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flash2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD87F9442BACCDEF00B32ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD87F9462BACCDEF00B32ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD87F9482BACCDEF00B32ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD87F94B2BACCDEF00B32ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD87F94D2BACCDF000B32ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD87F9502BACCDF000B32ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD87F9522BACCDF000B32ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD87F9572BACCDF000B32ABC /* Flash2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flash2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD87F95B2BACCDF000B32ABC /* Flash2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash2Tests.swift; sourceTree = "<group>"; };
+		DD87F9612BACCDF000B32ABC /* Flash2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flash2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD87F9652BACCDF000B32ABC /* Flash2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash2UITests.swift; sourceTree = "<group>"; };
+		DD87F9672BACCDF000B32ABC /* Flash2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD87F9742BACCE2F00B32ABC /* flashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD87F93E2BACCDEF00B32ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F9542BACCDF000B32ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F95E2BACCDF000B32ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD87F9382BACCDEF00B32ABC = {
+			isa = PBXGroup;
+			children = (
+				DD87F9432BACCDEF00B32ABC /* Flash2 */,
+				DD87F95A2BACCDF000B32ABC /* Flash2Tests */,
+				DD87F9642BACCDF000B32ABC /* Flash2UITests */,
+				DD87F9422BACCDEF00B32ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD87F9422BACCDEF00B32ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD87F9412BACCDEF00B32ABC /* Flash2.app */,
+				DD87F9572BACCDF000B32ABC /* Flash2Tests.xctest */,
+				DD87F9612BACCDF000B32ABC /* Flash2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD87F9432BACCDEF00B32ABC /* Flash2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD87F9442BACCDEF00B32ABC /* AppDelegate.swift */,
+				DD87F9462BACCDEF00B32ABC /* SceneDelegate.swift */,
+				DD87F9482BACCDEF00B32ABC /* ViewController.swift */,
+				DD87F94A2BACCDEF00B32ABC /* Main.storyboard */,
+				DD87F9742BACCE2F00B32ABC /* flashViewController.swift */,
+				DD87F94D2BACCDF000B32ABC /* Assets.xcassets */,
+				DD87F94F2BACCDF000B32ABC /* LaunchScreen.storyboard */,
+				DD87F9522BACCDF000B32ABC /* Info.plist */,
+			);
+			path = Flash2;
+			sourceTree = "<group>";
+		};
+		DD87F95A2BACCDF000B32ABC /* Flash2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD87F95B2BACCDF000B32ABC /* Flash2Tests.swift */,
+			);
+			path = Flash2Tests;
+			sourceTree = "<group>";
+		};
+		DD87F9642BACCDF000B32ABC /* Flash2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD87F9652BACCDF000B32ABC /* Flash2UITests.swift */,
+				DD87F9672BACCDF000B32ABC /* Flash2UITestsLaunchTests.swift */,
+			);
+			path = Flash2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD87F9402BACCDEF00B32ABC /* Flash2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD87F96B2BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2" */;
+			buildPhases = (
+				DD87F93D2BACCDEF00B32ABC /* Sources */,
+				DD87F93E2BACCDEF00B32ABC /* Frameworks */,
+				DD87F93F2BACCDEF00B32ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flash2;
+			productName = Flash2;
+			productReference = DD87F9412BACCDEF00B32ABC /* Flash2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD87F9562BACCDF000B32ABC /* Flash2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD87F96E2BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2Tests" */;
+			buildPhases = (
+				DD87F9532BACCDF000B32ABC /* Sources */,
+				DD87F9542BACCDF000B32ABC /* Frameworks */,
+				DD87F9552BACCDF000B32ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD87F9592BACCDF000B32ABC /* PBXTargetDependency */,
+			);
+			name = Flash2Tests;
+			productName = Flash2Tests;
+			productReference = DD87F9572BACCDF000B32ABC /* Flash2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD87F9602BACCDF000B32ABC /* Flash2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD87F9712BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2UITests" */;
+			buildPhases = (
+				DD87F95D2BACCDF000B32ABC /* Sources */,
+				DD87F95E2BACCDF000B32ABC /* Frameworks */,
+				DD87F95F2BACCDF000B32ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD87F9632BACCDF000B32ABC /* PBXTargetDependency */,
+			);
+			name = Flash2UITests;
+			productName = Flash2UITests;
+			productReference = DD87F9612BACCDF000B32ABC /* Flash2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD87F9392BACCDEF00B32ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DD87F9402BACCDEF00B32ABC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DD87F9562BACCDF000B32ABC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DD87F9402BACCDEF00B32ABC;
+					};
+					DD87F9602BACCDF000B32ABC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DD87F9402BACCDEF00B32ABC;
+					};
+				};
+			};
+			buildConfigurationList = DD87F93C2BACCDEF00B32ABC /* Build configuration list for PBXProject "Flash2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD87F9382BACCDEF00B32ABC;
+			productRefGroup = DD87F9422BACCDEF00B32ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD87F9402BACCDEF00B32ABC /* Flash2 */,
+				DD87F9562BACCDF000B32ABC /* Flash2Tests */,
+				DD87F9602BACCDF000B32ABC /* Flash2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD87F93F2BACCDEF00B32ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87F9512BACCDF000B32ABC /* LaunchScreen.storyboard in Resources */,
+				DD87F94E2BACCDF000B32ABC /* Assets.xcassets in Resources */,
+				DD87F94C2BACCDEF00B32ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F9552BACCDF000B32ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F95F2BACCDF000B32ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD87F93D2BACCDEF00B32ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87F9492BACCDEF00B32ABC /* ViewController.swift in Sources */,
+				DD87F9752BACCE2F00B32ABC /* flashViewController.swift in Sources */,
+				DD87F9452BACCDEF00B32ABC /* AppDelegate.swift in Sources */,
+				DD87F9472BACCDEF00B32ABC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F9532BACCDF000B32ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87F95C2BACCDF000B32ABC /* Flash2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD87F95D2BACCDF000B32ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87F9682BACCDF000B32ABC /* Flash2UITestsLaunchTests.swift in Sources */,
+				DD87F9662BACCDF000B32ABC /* Flash2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD87F9592BACCDF000B32ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD87F9402BACCDEF00B32ABC /* Flash2 */;
+			targetProxy = DD87F9582BACCDF000B32ABC /* PBXContainerItemProxy */;
+		};
+		DD87F9632BACCDF000B32ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD87F9402BACCDEF00B32ABC /* Flash2 */;
+			targetProxy = DD87F9622BACCDF000B32ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD87F94A2BACCDEF00B32ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD87F94B2BACCDEF00B32ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD87F94F2BACCDF000B32ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD87F9502BACCDF000B32ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD87F9692BACCDF000B32ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD87F96A2BACCDF000B32ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD87F96C2BACCDF000B32ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flash2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD87F96D2BACCDF000B32ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flash2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD87F96F2BACCDF000B32ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flash2";
+			};
+			name = Debug;
+		};
+		DD87F9702BACCDF000B32ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flash2";
+			};
+			name = Release;
+		};
+		DD87F9722BACCDF000B32ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flash2;
+			};
+			name = Debug;
+		};
+		DD87F9732BACCDF000B32ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = champlain.Flash2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flash2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD87F93C2BACCDEF00B32ABC /* Build configuration list for PBXProject "Flash2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD87F9692BACCDF000B32ABC /* Debug */,
+				DD87F96A2BACCDF000B32ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD87F96B2BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD87F96C2BACCDF000B32ABC /* Debug */,
+				DD87F96D2BACCDF000B32ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD87F96E2BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD87F96F2BACCDF000B32ABC /* Debug */,
+				DD87F9702BACCDF000B32ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD87F9712BACCDF000B32ABC /* Build configuration list for PBXNativeTarget "Flash2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD87F9722BACCDF000B32ABC /* Debug */,
+				DD87F9732BACCDF000B32ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD87F9392BACCDEF00B32ABC /* Project object */;
+}
